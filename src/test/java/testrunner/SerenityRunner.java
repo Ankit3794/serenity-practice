@@ -8,7 +8,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "stepdefs",
-        plugin="pretty"
+        plugin="pretty",
+        tags = "@Amazon"
 )
 public class SerenityRunner {
 }
