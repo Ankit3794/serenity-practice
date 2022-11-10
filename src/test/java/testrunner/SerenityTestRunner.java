@@ -11,5 +11,5 @@ import org.junit.runner.RunWith;
         plugin="pretty",
         tags = "@Amazon"
 )
-public class SerenityRunner {
+public class SerenityTestRunner {
 }
