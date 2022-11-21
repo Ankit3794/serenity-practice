@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "stepdefs",
         plugin="pretty",
-        tags = "@Amazon"
+        tags = "@pet_api"
 )
 public class SerenityTestRunner {
 }
